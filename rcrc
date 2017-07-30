@@ -1,1 +1,2 @@
+DOTFILES_DIRS="$(pwd)"
 EXCLUDES="Brewfile README.md LICENSE.md scripts/*"

@@ -6,3 +6,6 @@ cd "$(dirname $0)"/..
 
 echo "> brew bundle"
 brew bundle
+
+echo "> rcup"
+env RCRC="$(pwd)"/rcrc rcup -v
