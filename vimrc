@@ -10,15 +10,27 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+
+Plugin 'elixir-lang/vim-elixir'
+
+Plugin 'jackiehluo/vim-material'
+
 call vundle#end()
 
 filetype plugin indent on
 
 " End
 
-syntax on
-
 " Begin Configuration
+
+syntax on
 
 set autoindent
 set backspace=indent,eol,start
