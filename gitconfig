@@ -1,7 +1,12 @@
-[alias]
-  co = checkout
-[color]
-  ui = auto
 [user]
   name = Casey Stehlik
   email = casey@stehlik.io
+
+[github]
+  user = stehlikio
+
+[alias]
+  co = checkout
+
+[color]
+  ui = auto
