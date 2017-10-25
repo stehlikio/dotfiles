@@ -1,5 +1,6 @@
 tap 'homebrew/bundle'
 tap 'thoughtbot/formulae'
+tap 'caskroom/fonts'
 
 brew 'elixir'
 brew 'node'
@@ -15,5 +16,10 @@ brew 'yarn'
 brew 'zsh'
 
 cask '1password'
+cask 'tower'
+cask 'transmit'
 cask 'slack'
 
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
