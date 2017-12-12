@@ -9,6 +9,7 @@ brew 'openssl'
 brew 'postgres', restart_service: true
 brew 'rcm'
 brew 'redis', restart_service: true
+brew 'terraform'
 brew 'tmux'
 brew 'vim'
 brew 'wget'
@@ -16,6 +17,7 @@ brew 'yarn'
 brew 'zsh'
 
 cask '1password'
+cask 'box-sync'
 cask 'tower'
 cask 'transmit'
 cask 'slack'
