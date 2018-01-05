@@ -5,6 +5,8 @@ plugins=(aws docker gem git node nyan rails ruby tmux yarn)
 
 export PATH="/usr/local/bin:$PATH"
 
+eval "$(rbenv init -)"
+
 source $HOME/.zsh/aliases
 
 source $ZSH/oh-my-zsh.sh
