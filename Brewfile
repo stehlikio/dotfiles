@@ -23,6 +23,8 @@ brew 'zsh'
 
 cask '1password'
 cask 'box-sync'
+cask 'dotnet'
+cask 'dotnet-sdk'
 cask 'slack'
 cask 'tower'
 cask 'transmit'
