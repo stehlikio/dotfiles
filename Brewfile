@@ -31,6 +31,7 @@ cask 'slack'
 cask 'tower'
 cask 'transmit'
 
+cask 'font-courier-prime'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
