@@ -10,7 +10,7 @@ brew 'libffi'
 brew 'libyaml'
 brew 'node'
 brew 'openssl'
-brew 'postgres', restart_service: true
+brew 'postgresql', args: ["without-perl"], restart_service: true
 brew 'rcm'
 brew 'redis', restart_service: true
 brew 'terraform'
