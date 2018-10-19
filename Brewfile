@@ -4,6 +4,7 @@ tap 'heroku/brew'
 tap 'homebrew/bundle'
 tap 'thoughtbot/formulae'
 
+brew 'elm'
 brew 'elixir'
 brew 'heroku'
 brew 'libffi'
