@@ -1,14 +1,16 @@
-tap 'caskroom/fonts'
-tap 'caskroom/drivers'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-drivers'
 tap 'heroku/brew'
 tap 'homebrew/bundle'
 tap 'thoughtbot/formulae'
 
+brew 'docker'
 brew 'elixir'
 brew 'elm'
 brew 'heroku'
 brew 'libffi'
 brew 'libyaml'
+brew 'minikube'
 brew 'node'
 brew 'openssl'
 brew 'postgresql', args: ["without-perl"], restart_service: true
