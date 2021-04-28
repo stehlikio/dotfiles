@@ -14,7 +14,7 @@ brew 'libyaml'
 brew 'minikube'
 brew 'node'
 brew 'openssl'
-brew 'postgresql', args: ["without-perl"], restart_service: true
+brew 'postgresql', restart_service: true
 brew 'rcm'
 brew 'redis', restart_service: true
 brew 'terraform'
@@ -25,13 +25,13 @@ brew 'yarn'
 brew 'zsh'
 cask '1password'
 cask 'docker'
-cask 'logitech-options'
+cask 'dotnet'
 cask 'sublime-text'
 cask 'tower'
 cask 'transmit'
 
 # Fonts
-cask 'font-courier-prime'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+#cask 'font-courier-prime'
+#cask 'font-source-code-pro'
+#cask 'font-source-sans-pro'
+#cask 'font-source-serif-pro'
