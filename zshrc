@@ -14,10 +14,12 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH="$HOME/.fastlane/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
-eval "$(rbenv init -)"
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
+gpg-connect-agent /bye
+export GPG_TTY=$(tty)
 
 source $HOME/.zsh/aliases
 source $ZSH/oh-my-zsh.sh

@@ -25,10 +25,12 @@ brew 'yarn'
 brew 'zsh'
 cask '1password'
 cask 'docker'
-cask 'dotnet'
+cask 'dotnet-sdk'
 cask 'sublime-text'
 cask 'tower'
 cask 'transmit'
+cask 'visual-studio-code'
+cask 'zoom'
 
 # Fonts
 #cask 'font-courier-prime'
