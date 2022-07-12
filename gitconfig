@@ -1,21 +1,18 @@
+[init]
+	defaultBranch = main
+
+[core]
+	autocrlf = input
+
 [user]
 	name = Casey Stehlik
 	email = casey@stehlik.io
-	signingkey = 8F428FB88355E799826671D919A580CBDFECF1AC
 
 [github]
-  user = stehlikio
+	user = stehlikio
 
 [alias]
-  co = checkout
+	co = checkout
 
 [color]
-  ui = auto
-[core]
-	autocrlf = input
-[init]
-	defaultBranch = main
-[commit]
-	gpgsign = true
-[tag]
-	gpgSign = true
+	ui = auto
